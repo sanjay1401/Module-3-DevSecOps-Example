@@ -1,4 +1,5 @@
 FROM python:3.10-slim
+
 ARG REPO
 
 RUN pip3 install --upgrade pip
